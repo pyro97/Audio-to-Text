@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/simonepirozzi/AndroidStudioProjects/MyApplication1234/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "/Users/spirozzi/Audio-to-Text/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/simonepirozzi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/44d4d04de95cdb12929cb81d1db5f0c7/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/spirozzi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/94ca11cd710a195adafb0dab7442b165/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
