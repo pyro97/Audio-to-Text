@@ -19,9 +19,10 @@
         android:label="@string/app_name1"
         android:roundIcon="@mipmap/ic_launcher1"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="pyroapp.myapplication1234.Splash"
+            android:name="pyroapp.myapplication1234.ui.splash.SplashActivity"
             android:label="@string/app_name1"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" >
@@ -32,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="pyroapp.myapplication1234.MainActivity"
+            android:name="pyroapp.myapplication1234.ui.homepage.HomePageActivity"
             android:label="@string/app_name1"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />

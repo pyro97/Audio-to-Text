@@ -1,4 +1,4 @@
-package pyroapp.myapplication1234;
+package pyroapp.myapplication1234.ui.splash;
 
 
 import android.content.Intent;
@@ -9,7 +9,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Splash extends AppCompatActivity {
+import pyroapp.myapplication1234.ui.homepage.HomePageActivity;
+import pyroapp.myapplication1234.R;
+
+public class SplashActivity extends AppCompatActivity {
         private TextView testo;
         private ImageView img;
     @Override
@@ -22,7 +25,7 @@ public class Splash extends AppCompatActivity {
         Animation animation= AnimationUtils.loadAnimation(this,R.anim.mytransition);
         testo.startAnimation(animation);
         img.startAnimation(animation);
-        final Intent intent=new Intent(this,MainActivity.class);
+        final Intent intent=new Intent(this, HomePageActivity.class);
         Thread timer=new Thread(){
             public void run(){
                 try{
