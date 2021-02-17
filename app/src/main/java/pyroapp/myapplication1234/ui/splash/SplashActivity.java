@@ -15,8 +15,8 @@ import pyroapp.myapplication1234.R;
 public class SplashActivity extends AppCompatActivity {
         private TextView testo;
         private ImageView img;
-    @Override
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
