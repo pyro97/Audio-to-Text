@@ -13,17 +13,17 @@ import pyroapp.myapplication1234.ui.homepage.HomePageActivity;
 import pyroapp.myapplication1234.R;
 
 public class SplashActivity extends AppCompatActivity {
-        private TextView testo;
+        private TextView text;
         private ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        testo=findViewById(R.id.textView);
+        text=findViewById(R.id.textView);
         img=findViewById(R.id.imageView);
         Animation animation= AnimationUtils.loadAnimation(this,R.anim.mytransition);
-        testo.startAnimation(animation);
+        text.startAnimation(animation);
         img.startAnimation(animation);
         final Intent intent=new Intent(this, HomePageActivity.class);
         Thread timer=new Thread(){
