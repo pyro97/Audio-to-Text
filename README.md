@@ -8,7 +8,7 @@ Google Play: https://bit.ly/2RvB0Wj
   <img src="readme/audio-to-text.gif" width="300">
 </p>
 
-#### The app has following packages:
+#### This app has following packages:
 1. **ui**: View classes along with their corresponding Presenter.
 2. **utils**: Utility classes.
 
