@@ -13,7 +13,7 @@ Google Play: https://bit.ly/2RvB0Wj
 2. **utils**: Utility classes.
 
 
-#### This is a MVC Java Project
+#### This is a MVP Java Project
 - I used Recognizer Intent class to recognize audio and convert it to text
 - I used Google Mobile Ads to show banner and interstitial
 
